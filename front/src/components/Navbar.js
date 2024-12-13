@@ -9,11 +9,11 @@ const Navbar = () => {
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                         {/* 首頁 */}
                         <li className="nav-item">
-                            <Link className="nav-link" to="/">Home</Link>
+                            <Link className="nav-link" to = "/">Home</Link>
                         </li>
                         {/* 訂購便當 */}
                         <li className="nav-item">
-                            <Link className="nav-link" to="/order">Order Bento</Link>
+                            <Link className="nav-link" to="/add">Order Bento</Link>
                         </li>
                         {/* 關於我們 */}
                         <li className="nav-item">
